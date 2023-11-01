@@ -96,7 +96,7 @@
           </el-table-column>
           <el-table-column label="是否启用" align="center" prop="isEnable">
             <template slot-scope="scope">
-              {{ scope.row.isEnable === '1' ? '是' : '否' }}
+              {{ scope.row.isEnable === 1 ? '是' : '否' }}
             </template>
           </el-table-column>
           <el-table-column label="权限标识" align="center" prop="permission">
@@ -107,7 +107,7 @@
           <!--
           <el-table-column label="日志记录" align="center" prop="isLog">
             <template slot-scope="scope">
-              {{ scope.row.isLog === '1' ? '是' : '否' }}
+              {{ scope.row.isLog === 1 ? '是' : '否' }}
             </template>
           </el-table-column>
           -->
